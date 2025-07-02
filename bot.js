@@ -645,10 +645,5 @@ bot.on("message", (msg) => {
       chatId,
       `Anda adalah ${userInfo.firstName} ${userInfo.lastName}`
     );
-  } else {
-    bot.sendMessage(
-      chatId,
-      `${userInfo.firstName}, saya belum mengerti perintah tersebut. Ketik /help untuk bantuan.`
-    );
   }
 });
