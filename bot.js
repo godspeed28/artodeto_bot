@@ -46,7 +46,7 @@ bot.onText(/\/start/, (msg) => {
 
   const response =
     `Halo ${user.firstName}! 👋\n` +
-    "Saya adalah chatbot Telegram yang dibuat pakai Node.js 😎\n\n" +
+    "Saya adalah chatbot Telegram yang dibuat pakai Node.js\n\n" +
     "Ketik /help untuk melihat perintah yang tersedia";
   sendAndLog(chatId, response);
 });
